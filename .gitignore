@@ -1,0 +1,19 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local database exports and temporary files
+*.dump
+*.backup
+*.log
+
+# Raw datasets - do not upload large source CSV files
+data/*.csv
